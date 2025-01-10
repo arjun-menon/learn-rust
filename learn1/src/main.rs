@@ -1,4 +1,8 @@
 fn main() {
+    main0();
+}
+
+fn main0() {
     const HELLO: u8 = 5;
     println!("HELLO: {}", HELLO);
 
