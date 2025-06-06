@@ -43,7 +43,7 @@ fn sooo() -> i16 {
     six + 1
 }
 
-fn another_zinger(zinger1: char, zinger2: f32, zinger3: u8) {
+fn another_zinger(_zinger1: char, _zinger2: f32, zinger3: u8) {
     println!("zinger3: {}", zinger3);
 }
 
